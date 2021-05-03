@@ -17,7 +17,7 @@ return array(
     /**
      * Full URL where BoxBilling is installed with trailing slash
      */
-    'url'     => 'http://localhost/',
+    'url'     => getenv('APP_URL') ?: 'http://localhost/',
 
     'admin_area_prefix' =>  '/bb-admin',
 
